@@ -1,0 +1,109 @@
+*{
+  text-align: center;
+}
+
+body{
+  background-image: url(https://fondosmil.com/fondo/88718.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 800px;
+}
+
+h1{
+  font-size: 80px;
+  color: #DB2210;
+  font-family: Algerian;
+  text-align: center;
+  transition: 3s;
+  }
+
+h1:hover{
+  transform: scale(1,2);
+}
+img{
+  border-radius: 15px;
+}
+div{
+  width: 350px;
+  height: 250px;
+  position: relative;
+  margin: auto;
+  top: 60px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#nacion{
+  position: relative;
+  top: 50px;
+  left: -600px;
+}
+
+#extra{
+  position: relative;
+  top: -204px;
+  left: 0px;
+}
+
+#rep{
+  position: relative;
+  top: 271px;
+  left: 600px;
+}
+
+#teja{
+  position: relative;
+  top: -708px;
+  left: 600px;
+}
+
+#mundo{
+  position: relative;
+  top: -600px;
+  left: -600px;
+}
+
+#pais{
+  position: relative;
+  top: -854px;
+  left: 0px;
+}
+
+#hoy{
+  position: relative;
+  top: -1108px;
+  left: 600px;
+}
+
+#obs{
+  position: relative;
+  top: -999px;
+  left: -600px;
+}
+
+#limon{
+  position: relative;
+  top: -1253px;
+  left: 0px;
+}
+
+div:hover{
+  transform: scale(1.5);
+}
+
+button{
+  font-family: Just One;
+  font-size: 40px;
+  position: relative;
+  height: 60px;
+  width: 120px;
+  border-radius: 15px;
+  cursor: pointer;
+  background: transparent;
+
+}
+
+button:hover{
+  transform: scale(1.3);
+}
